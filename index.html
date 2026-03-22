@@ -1,0 +1,155 @@
+<!-- ===================== index.html ===================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Amazon Clone </title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo">
+  </div>
+  <input type="text" id="search" placeholder="Search products...">
+  <div class="header-links">
+    <a href="auth.html">Login</a>
+    <a class="cart-link" href="cart.html"><i class="fa fa-shopping-cart"></i> <span id="cart-count">0</span></a>
+  </div>
+</header>
+
+<nav class="navbar">
+  <button onclick="filterCategory('all')">All</button>
+  <button onclick="filterCategory('electronics')">Electronics</button>
+  <button onclick="filterCategory('fashion')">Fashion</button>
+</nav>
+
+<div class="slider">
+  <img id="slide" src="https://images.unsplash.com/photo-1513708929877-44d11de7607b?auto=format&fit=crop&w=1800&q=80" alt="Featured products slider">
+  <div class="slider-overlay">
+    <div class="slider-text">
+      <h1>Deals of the Day</h1>
+      <p>Shop top picks with unmatched savings and style</p>
+    </div>
+  </div>
+</div>
+
+<section id="product-list" class="products"></section> 
+
+
+
+<!-- ===================== cart.html ===================== -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cart</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Your Cart 🛒</h2>
+<div id="cart-items"></div>
+<h3 id="total"></h3>
+<button onclick="clearCart()">Clear Cart</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!-- ===================== About===================== -->
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-section">
+      <h4>Get to Know Us</h4>
+      <ul>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About Amazon</a></li>
+        <li><a href="#">Investor Relations</a></li>
+        <li><a href="#">Amazon Devices</a></li>
+        <li><a href="#">Amazon Science</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Make Money with Us</h4>
+      <ul>
+        <li><a href="#">Sell products on Amazon</a></li>
+        <li><a href="#">Sell on Amazon Business</a></li>
+        <li><a href="#">Sell apps on Amazon</a></li>
+        <li><a href="#">Become an Affiliate</a></li>
+        <li><a href="#">Advertise Your Products</a></li>
+        <li><a href="#">Self-Publish with Us</a></li>
+        <li><a href="#">Host an Amazon Hub</a></li>
+        <li><a href="#">› See More Make Money with Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Amazon Payment Products</h4>
+      <ul>
+        <li><a href="#">Amazon Business Card</a></li>
+        <li><a href="#">Shop with Points</a></li>
+        <li><a href="#">Reload Your Balance</a></li>
+        <li><a href="#">Amazon Currency Converter</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Let Us Help You</h4>
+      <ul>
+        <li><a href="#">Amazon and COVID-19</a></li>
+        <li><a href="#">Your Account</a></li>
+        <li><a href="#">Your Orders</a></li>
+        <li><a href="#">Shipping Rates & Policies</a></li>
+        <li><a href="#">Returns & Replacements</a></li>
+        <li><a href="#">Manage Your Content and Devices</a></li>
+        <li><a href="#">Amazon Assistant</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" style="height: 30px; filter: invert(1);">
+    </div>
+    <div class="footer-links">
+      <a href="#">Conditions of Use</a>
+      <a href="#">Privacy Notice</a>
+      <a href="#">Interest-Based Ads</a>
+    </div>
+    <div class="footer-copyright">
+      © 1996-2023, Amazon.com, Inc. or its affiliates
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!-- ===================== login.html ===================== -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="login-box">
+<h2>Login</h2>
+<input type="text" placeholder="Username"><br>
+<input type="password" placeholder="Password"><br>
+<button>Login</button>
+</div>
+</body>
+</html>
+
+
+
+
