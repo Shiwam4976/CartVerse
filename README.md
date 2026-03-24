@@ -1,19 +1,20 @@
 # CartVerse
 
 📄 Project Description:-
-This project is a fully responsive Amazon clone website built using HTML, CSS, and JavaScript. It replicates the basic layout and functionality of an e-commerce platform, including a homepage, product listings, and shopping cart features. The goal of this project is to practice front-end development skills and understand how real-world websites are structured.
+A full-stack Amazon clone built using HTML, CSS, JavaScript, Node.js, and MongoDB.
 
+This project includes user authentication (signup & login) with data stored securely in MongoDB. It features a responsive UI, dynamic frontend interactions, and a backend API for handling user data.
 
-🚀 Features:-
-Responsive design (works on mobile & desktop)
-Navigation bar with search functionality
-Product listing section with images, price, and ratings
-Add to cart functionality
-Shopping cart page
-Clean and user-friendly UI
+Key Features:
+- User Signup & Login system
+- MongoDB database integration
+- REST API using Node.js & Express
+- Responsive design (Amazon-style UI)
+- Dynamic product and cart interface
 
+Tech Stack:
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js, Express.js
+Database: MongoDB
 
-🛠️ Technologies Used:-
-HTML5
-CSS3
-JavaScript
+This project demonstrates full-stack development including frontend design, backend logic, and database connectivity.
